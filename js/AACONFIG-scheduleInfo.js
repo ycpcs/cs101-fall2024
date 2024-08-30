@@ -16,7 +16,7 @@ courseInfo.classPeriods = [
 	{
 		topic: new Topic("Lecture 3: More about variables and expressions", "lectures/lecture03.html","Week2",["quarters", "radius of circle*", "Divvy up the rice*"],[
 "https://cs.ycp.edu/cloudcoder/#exercise?c=36,p=2045", "https://cs.ycp.edu/cloudcoder/#exercise?c=36,p=1974", "https://cs.ycp.edu/cloudcoder/#exercise?c=36,p=1975"]),
-		lab: new NumberedLabNoFile(3, "Math Functions")
+		lab: new NumberedLab(3, "Right Triangle")
 
 	},
 //	{

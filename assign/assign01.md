@@ -33,7 +33,7 @@ Your Tasks
 
 Based on the requirements described below in the "Program" section, fill out a [design template](../design-template.pdf).  Consider what the input and output of the program are, and what steps are necessary to compute the output from the input.
 
-The design is due at the beginning of class on **Tuesday, Feb 6th**.
+The design is due at the beginning of class on **Thursday, Sept 5th**.
 
 ## Program
 

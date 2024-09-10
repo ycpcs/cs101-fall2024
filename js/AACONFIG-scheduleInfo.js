@@ -47,7 +47,7 @@ courseInfo.classPeriods = [
 "https://cs.ycp.edu/cloudcoder/#exercise?c=36,p=1984",
 "https://cs.ycp.edu/cloudcoder/#exercise?c=36,p=1985",
 "https://cs.ycp.edu/cloudcoder/#exercise?c=36,p=2014"]),
-		lab: new NumberedLabFile(6, "Compute Pi")
+		lab: new NumberedLab(6, "Compute Pi")
 	},
 	{
 		topic: new Topic("Lecture 7: While loops, coding style", "lectures/lecture07.html","Week4",["Check Input*", "squares*", "day numbers"],[

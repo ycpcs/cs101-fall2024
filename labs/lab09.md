@@ -22,8 +22,8 @@ Using **Notepad++**, open the file
 
 > **H:\\CS101\\CS101\_Lab09\\Palindrome.cpp**
 
-Right Triangle
-==============
+Palindrome
+==========
 
 Your task in this lab is to initially prompt the user to enter the number of integer values they wish to enter (up to a maximum of **MAX\_NUMS**). Then obtain the values from the user storing them into an array. Finally, the array should be checked to see if it is a "palindrome", i.e. if the first and last elements are the same, the second and next to last elements are the same, etc.
 

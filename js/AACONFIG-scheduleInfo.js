@@ -82,7 +82,7 @@ courseInfo.classPeriods = [
 "https://cs.ycp.edu/cloudcoder/#exercise?c=36,p=1993", 
 "https://cs.ycp.edu/cloudcoder/#exercise?c=36,p=2044",
 "https://cs.ycp.edu/cloudcoder/#exercise?c=36,p=1994"]),
-		lab: new NumberedLabNoFile(9, "Array Exercises")
+		lab: new NumberedLab(9, "Palindrome")
 	},
 	{
 		topic: new Topic("Lecture 9: Arrays, cont.", "lectures/lecture09.html","",[],[]),

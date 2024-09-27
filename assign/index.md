@@ -13,6 +13,7 @@ Assignment | File | Due date(s)
 ---------- | ---- | -----------
 [Assignment 1: Projectile Motion](assign01.html) | [CS101\_Assign01\_Fa24.zip](CS101_Assign01_Fa24.zip) | Design: Thur, Sept 5th<br>Code: Wed, Sept 11th
 [Assignment 2: Calendar](assign02.html) | [CS101\_Assign02\_Fa24.zip](CS101_Assign02_Fa24.zip) | MS1 Design: Tues, Sept 17th<br>MS1 Code: Mon, Sept 23rd<br>MS2 Design: Tues, Sept 24th<br>MS2 Code: Mon, Sept 30th
+[Assignment 3: Dominoes](assign03.html) | [CS101\_Assign03\_Fa24.zip](CS101_Assign03_Fa24.zip) | MS1 Code: Mon, Oct 7th<br>MS2 Design: Thur, Oct 10th<br>MS2 Code: Thur, Oct 17th
 
 <!--
 [Assignment 3: Dominoes](assign03.html) | [CS101\_Assign03\_Sp24.zip](CS101_Assign03_Sp24.zip) | MS1 Code: Mon, Mar 11th<br>MS2 Design: Thur, Mar 14th<br>MS2 Code: Wed, Mar 20th

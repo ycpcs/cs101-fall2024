@@ -35,14 +35,11 @@ Welcome to the website for CS 101, Fundamentals of Computer Science I, at York C
 * **Oct 10** &mdash; [Assignment 3 Milestone 2](assign/assign03.html) **Milestone 2 Design Artifact Due in class.**
 * **Oct 15 - NO CLASS - FALL BREAK**
 * **Oct 17** &mdash; [Assignment 3 Milestone 2](assign/assign03.html) **Milestone 2 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
+* **Oct 28** &mdash; [Assignment 4](assign/assign04.html) **Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
+* **Oct 29** &mdash; **EXAM 2**
 
 
 <!--
-* **Mar 11** &mdash; [Assignment 3 Milestone 1](assign/assign03.html) **Milestone 1 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
-* **Mar 14** &mdash; [Assignment 3 Milestone 2](assign/assign03.html) **Milestone 2 Design Artifact Due in class.**
-* **Mar 20** &mdash; [Assignment 3 Milestone 2](assign/assign03.html) **Milestone 2 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
-* **Mar 27** &mdash; [Assignment 4](assign/assign04.html) **Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
-* **Mar 28** &mdash; **EXAM 2**
 * **Apr 11** &mdash; [Assignment 5](assign/assign05.html) **Exercises Due in Cloudcoder by 11:59pm**.
 * **Apr 22** &mdash; [Assignment 6 Milestone 1](assign/assign06.html) **Milestone 1 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
 * **May 1** &mdash; [Assignment 6 Milestone 2](assign/assign06.html) **Milestone 2 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.

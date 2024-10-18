@@ -14,7 +14,7 @@ title: "Assignment 3: Falling Dominoes"
 Getting Started
 ===============
 
-Start by downloading [CS101\_Assign03\_Fa24.zip](CS101_Assign03_Fa24.zip), saving it in the directory **H:\\CS101**. In Windows File Explorer, navigate to **H:\\CS101**, right click on **CS101\\_Assign03\\_Fa24.zip**, and select **Extract All** to create a **CS101\\_Assign03\\_Fa24** directory with the assignment files.
+Start by downloading [CS101\_Assign03\_Fa24.zip](CS101_Assign03_Fa24.zip), saving it in the directory **H:\\CS101**. In Windows File Explorer, navigate to **H:\\CS101**, right click on **CS101\_Assign03\_Fa24.zip**, and select **Extract All** to create a **CS101\_Assign03\_Fa24** directory with the assignment files.
 
 Start a **Cygwin Bash Shell** and run the following commands:
 

@@ -58,14 +58,18 @@ The individual's gross income is then given as their gross income minus their de
 
 *Tax Rate*
 
+Using the taxable income, the tax rate is then determined by the following table:
 
+Tax Rate | Single           | Married joint     | Head of Household | Married Separate 
+-------- | ---------------- | ----------------- | ----------------- | ----------------
+10%      | <$10,001         | <$20,001          | <$13,001          | <$9,501
+20%      | $10,001-$80,000  | $20,001-$165,000  | $13,001-$82,500   | $9,501-$82,500
+30%      | $80,001-$200,000 | $165,001-$400,000 | $82,501-$200,000  | $82,501-$200,000
+35%      | >$200,001        | >$400,001         | >$200,001         | >$200,001
 
-**Summary of Roulette**:
-There are 38 slots, two green (slots 0 and 37), and the rest numbered 1 through 36.
+*Tax Obligation*
 
-- If you land on green, you automatically lose your bet.
-- If you bet odd or even and you win, you win the amount that you bet.
-- If you bet on a number and win, you win 35 times your bet.
+Finally, the tax obligation is given by the taxable income times the tax rate. **Note:** The tax obligation cannot be negative, thus if the deductions exceed the gross income, the tax obligation is $0.
 
 When you are ready to compile the program, in the Cygwin window type the command
 

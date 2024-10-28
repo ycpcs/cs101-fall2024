@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Assignment 4: Structs"
+title: "Assignment 5: Structs"
 ---
 
 **Due dates**:
@@ -28,7 +28,9 @@ You will add your code to these files (separately).
 Your Tasks
 ==========
 
-**Tax Time**
+## Tax Time
+
+Add code to **TaxTime.cpp**
 
 Initially, declare a struct named **Person** that contains the following fields:
 
@@ -39,9 +41,9 @@ Initially, declare a struct named **Person** that contains the following fields:
 
 Then, the program should prompt the user to enter values for each field and store them in a struct variable. (**Note:** filing status is given by 1 - Single, 2 - Married joint, 3- Head of household, 4 - Married separate. Also, a negative value for the deduction amount indicates the person is taking the standard deduction). 
 
-Once the information is collected, the struct should be passed to a function named **calcTaxes()** which takes a single **Person** struct parameter and returns a **double** for the tax obligation.
+Once the information is collected, the struct should be passed to a function named **calcTaxes()** which takes a single **Person** struct parameter and returns a **double** for the tax obligation. **Note:** The function should print out the taxable income and tax rate (for debugging), while the main program should print the final tax obligation.
 
-*Tax Obligation*
+### Tax Obligation
 
 The tax obligation is computed by first determining the deduction amount which is either the actual amount or the amount given by the following table based on the filing status, **whichever is greater**:
 
@@ -52,11 +54,11 @@ Married joint     | $24,000
 Head of Household | $18,000
 Married Separate  | $12,000
 
-*Taxable Income*
+### Taxable Income
 
 The individual's gross income is then given as their gross income minus their deduction amount.
 
-*Tax Rate*
+### Tax Rate
 
 Using the taxable income, the tax rate is then determined by the following table:
 
@@ -67,117 +69,82 @@ Tax Rate | Single           | Married joint     | Head of Household | Married Se
 30%      | $80,001-$200,000 | $165,001-$400,000 | $82,501-$200,000  | $82,501-$200,000
 35%      | >$200,001        | >$400,001         | >$200,001         | >$200,001
 
-*Tax Obligation*
+### Tax Obligation
 
 Finally, the tax obligation is given by the taxable income times the tax rate. **Note:** The tax obligation cannot be negative, thus if the deductions exceed the gross income, the tax obligation is $0.
 
 When you are ready to compile the program, in the Cygwin window type the command
 
-    make
+    make TaxTime
 
 To run the program, type the command
 
-    ./Roulette.exe
+    ./TaxTime.exe
 
-Here is an example run (user input in bold):
+Here is an example run (user input in **bold**):
 
 <pre>
-Enter the amount of money you are starting with: $ <b>1000</b>
-How do you wish to bet?
-1 To bet on Odd
-2 To bet on Even
-3 To bet on a Particular Number
+Please enter
+SSN: <b>123456789</b>
+Filing Status (1-Single, 2-Married Joint, 3-Head of Household, 4-Married Separate): <b>1</b>
+Gross Income: <b>78654</b>
+Deductions (-1 if none): <b>6250</b>
 
-<b>1</b>
+Taxable income:
+Tax rate:
+Tax obligation:
 
-Enter your bet: $ <b>100</b>
-
-The ball landed on 14.
-Sorry, you lose $100.00
-Your current account is $900.00
-
-Enter 0 to Quit: <b>1</b>
-How do you wish to bet?
-1 To bet on Odd
-2 To bet on Even
-3 To bet on a Particular Number
-
-<b>2</b>
-
-Enter your bet: $ <b>100</b>
-
-The ball landed on 8.
-That's even, you win $100.00
-Your current account is $1000.00
-
-Enter 0 to Quit: <b>1</b>
-How do you wish to bet?
-1 To bet on Odd
-2 To bet on Even
-3 To bet on a Particular Number
-
-<b>3</b>
-
-Enter the number you would like to bet on (1 - 36 only): <b>15</b>
-Enter your bet: $ <b>100</b>
-
-The ball landed on 15.
-That's the number, you win $3500.00
-Your current account is $4500.00
-
-Enter 0 to Quit: <b>0</b>
-Thank you for playing Roulette.
 </pre>
 
-## Roulette Functions
+## HitBox
 
-Your program **MUST** implement the following functions:
+Add code to **HitBox.cpp** to complete the **hitbox()** function definition.
 
--   **get_bet_type()** - which takes no parameters, and returns a valid bet type obtained from the user. The function should contain all prompts for the user and validate the type is between 1-3.
--   **get_number()** - which takes no parameters, and returns the user's chosen value between 1-36. The function should contain all prompts for the user and validate the number is between 1-36. This function will be called from **main()** if the bet type is for a particular number.
--   **get_bet_amount()** - which takes the current account as a parameter, and returns a valid bet amount obtained from the user. The function should contain all prompts for the user and validate that the bet is greater than 0 and less than the current account amount.
--   **spin_wheel()** - which takes no parameters, and returns a random number generated between 0-37
--   **evaluate_spin()** - which takes four parameters: the wheel spin, the bet amount, the bet type, and the specific number. It should print the win/loss result and return the amount won/lost.
--   **print_account()** - which takes a parameter for the current amount of the account, and returns no value. The function should simply print out the current amount of money the user has remaining.
+A **Rect** struct definition is provided which contains four fields:
 
-**DO NOT CHANGE THE FUNCTION NAMES** or parameter specifications.
+-    **x** - the leftmost x coordinate (double)
+-    **y** - the bottom y coordinate (double)
+-    **width** - the width of the rectangle (double)
+-    **height** - the height of the rectangle (double)
 
-## Approach/Hints
+Thus the rectangle extents will go from **x** to **x+width** and **y** to **y+height**.
 
-### Main
+The provided main function will create several different **Rect** variable pair tests and pass them to the **hitbox()** function and test the return value, i.e. **DO NOT** modify main().
 
-You will want to look through the main function to see how the various functions are used to be sure the data types and order for the parameters and return values match. **Note:** Since the functions are **completely** separate from **main()** you may use any variable names you wish in the function declarations and inside the functions.
+The **hitbox()** function should take two **Rect** parameters and return a **double** value indicating the area of overlap between the two rectangles. The function should return 0 if the rectangles do not overlap.
 
-### Function declarations
+**Hint:** To determine if two rectangles overlap, check if the *edges* of one rectangle (which could be either) are *within* the *extents* of the other to determine the *extents* (min and max x/y) of the overlapping rectangle. You will want to check x and y separately and consider the different cases that can occur.
 
-Consider the data types for each parameter and the return type of each function. **Write each function as a standalone routine.** Be sure to add function prototypes before main().
+When you are ready to compile the program, in the Cygwin window type the command
 
-### Spinning the wheel
+    make HitBox
 
-When the program simulates a spin of the roulette wheel,
-it can "randomly" choose an integer in the range
-0 through 37 (inclusive) using the expression
+To run the program, type the command
 
-    rand() % 38
+    ./HitBox.exe
+
+You will either see the output (note there is **no** user input) 
+
+<pre>
+All tests passed!
+</pre>
+
+Or an error message indicating which test failed. You may want to sketch the rectangles for any tests that are failing to see what your logic is computing to compare against the value specified in the assert statement.
 
 Grading
 =======
 
 Your grade will be determined as follows:
 
-* get_bet_type(): 15
-* get_number(): 15
-* get_bet_amount(): 20
-* spin_wheel(): 10
-* evaluate_spin(): 30
-* print_account(): 10
+* TaxTime: 50
+* HitBox: 50
 
 We expect you to use good coding style.  Points may be deducted for poor variable names, inconsistent or missing indentation, and/or lack of comments.
 
 Submitting
 ==========
 
-To submit your code, make sure your **Roulette.cpp** file is saved, and in the Cygwin window type 
+To submit your code, make sure your **TaxTime.cpp** and **HitBox.cpp** files are saved, and in the Cygwin window type 
 
     make submit
 

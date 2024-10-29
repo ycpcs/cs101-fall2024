@@ -5,7 +5,7 @@ title: "Assignment 5: Structs"
 
 **Due dates**:
 
-* Code due: **Tuesday, Nov 12th** by 11:59 PM
+* Code due: **Monday, Nov 11th** by 11:59 PM
 
 Getting Started
 ===============
@@ -81,20 +81,56 @@ To run the program, type the command
 
     ./TaxTime.exe
 
-Here is an example run (user input in **bold**):
+Here are some example runs (user input in **bold**):
 
 <pre>
 Please enter
 SSN: <b>123456789</b>
 Filing Status (1-Single, 2-Married Joint, 3-Head of Household, 4-Married Separate): <b>1</b>
-Gross Income: <b>78654</b>
-Deductions (-1 if none): <b>6250</b>
+Gross Income: <b>78654.00</b>
+Deductions (-1 if none): <b>6250.00</b>
 
-Taxable income:
-Tax rate:
-Tax obligation:
-
+Taxable income: $66654.00
+Tax rate: 20%
+Tax obligation: $13330.80
 </pre>
+
+<pre>
+Please enter
+SSN: <b>123456789</b>
+Filing Status (1-Single, 2-Married Joint, 3-Head of Household, 4-Married Separate): <b>3</b>
+Gross Income: <b>167430.25</b>
+Deductions (-1 if none): <b>23410.00</b>
+
+Taxable income: $144020.25
+Tax rate: 30%
+Tax obligation: $43206.07
+</pre>
+
+<pre>
+Please enter
+SSN: <b>123456789</b>
+Filing Status (1-Single, 2-Married Joint, 3-Head of Household, 4-Married Separate): <b>4</b>
+Gross Income: <b>435890.00</b>
+Deductions (-1 if none): <b>-1</b>
+
+Taxable income: $423890.00
+Tax rate: 35%
+Tax obligation: $148361.50
+</pre>
+
+<pre>
+Please enter
+SSN: <b>123456789</b>
+Filing Status (1-Single, 2-Married Joint, 3-Head of Household, 4-Married Separate): <b>1</b>
+Gross Income: <b>8640.10</b>
+Deductions (-1 if none): <b>550.00</b>
+
+Taxable income: $-3359.90
+Tax rate: 10%
+Tax obligation: $0.00
+</pre>
+
 
 ## HitBox
 

@@ -38,13 +38,12 @@ Welcome to the website for CS 101, Fundamentals of Computer Science I, at York C
 * **Oct 28** &mdash; [Assignment 4](assign/assign04.html) **Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
 * **Oct 29** &mdash; **EXAM 2**
 * **Nov 11** &mdash; [Assignment 5](assign/assign05.html) **Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
+* **Nov 22** &mdash; [Assignment 6 Milestone 1](assign/assign06.html) **Milestone 1 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
+* **Dec 5** &mdash; **EXAM 3**
+* **Dec 6** &mdash; [Assignment 6 Milestone 2](assign/assign06.html) **Milestone 2 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
 
 
 <!--
-* **Apr 11** &mdash; [Assignment 5](assign/assign05.html) **Exercises Due in Cloudcoder by 11:59pm**.
-* **Apr 22** &mdash; [Assignment 6 Milestone 1](assign/assign06.html) **Milestone 1 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
-* **May 1** &mdash; [Assignment 6 Milestone 2](assign/assign06.html) **Milestone 2 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
-* **May 2** &mdash; **EXAM 3**
 * **May 7** &mdash; **(11am Section 101) 10:15am-12:15pm FINAL EXAM**
 * **May 9** &mdash; **(9:30am Section 102) 8:00-10:00am FINAL EXAM**
 -->

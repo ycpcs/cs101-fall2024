@@ -21,6 +21,6 @@ This page links to practice exams.
 > [Exam 2 solution (written questions)](cs101-spring2017-exam04-solution.pdf) , [Exam 2 solution (programming questions)](CS101_Exam04_Solution.zip)
 
 **Structs**
-[Exam 3, Spring 2017](cs101-spring2017-exam04.pdf), [Programming zipfile](CS101_Exam03.zip)
+[Exam 3, Spring 2017](cs101-spring2017-exam04.pdf), [Programming zipfile](CS101_Exam04.zip)
 
 > [Exam 3 solution (written questions)](cs101-spring2017-exam04-solution.pdf), [Exam 3 solution (programming questions)](CS101_Exam04_Solution.zip)

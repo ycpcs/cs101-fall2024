@@ -8,15 +8,15 @@ In this lab, we will turn the bouncing character animation into a simulation of 
 Getting Started
 ===============
 
-Start by downloading [CS101\_Lab18.zip](CS101_Lab18.zip), saving it in the directory **H:\\CS101**. Using Windows File Explorer, navigate to your **CS101** directory on your **H:** drive and right click on the **CS101\_Lab18.zip** file and select **Extract All**. This should create a subdirectory named **CS101\_Lab18** that contains the lab files. 
+Start by downloading [CS101\_Lab19.zip](CS101_Lab19.zip), saving it in the directory **H:\\CS101**. Using Windows File Explorer, navigate to your **CS101** directory on your **H:** drive and right click on the **CS101\_Lab19.zip** file and select **Extract All**. This should create a subdirectory named **CS101\_Lab19** that contains the lab files. 
 
-**NOTE:** If there is another **CS101\_Lab18** subdirectory inside the **CS101\_Lab18** subdirectory, move the files to the outer **CS101\_Lab18** subdirectory and delete the inner one.
+**NOTE:** If there is another **CS101\_Lab19** subdirectory inside the **CS101\_Lab19** subdirectory, move the files to the outer **CS101\_Lab19** subdirectory and delete the inner one.
 
 Start a **Cygwin Terminal** and run the following commands:
 
     cd h:
     cd CS101
-    cd CS101_Lab18
+    cd CS101_Lab19
 
 Using **Notepad++**, open the file
 
